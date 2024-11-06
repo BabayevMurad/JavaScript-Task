@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #0d1117;
+}
+
+#login {
+    height: 30px;
+    width: 300px;
+    position: absolute;
+    top: 7.5%;
+    left: 26.7%;
+    border-radius: 5px;
+    border-color: #1f2632;
+    border-width: 0.5px;
+    background-color: #14171d;
+}
+
+#password {
+    height: 30px;
+    width: 300px;
+    position: absolute;
+    top: 7.5%;
+    left: 48%;
+    border-radius: 5px;
+    border-color: #1f2632;
+    border-width: 0.5px;
+    background-color: #14171d;
+    
+}
+
+input[type="text"]
+{
+    color: white;
+    font-size: 18px;
+}
+
+h1{
+    color: rgb(194, 194, 194);
+    position: absolute;
+    top: 2%;
+}
+
+#log{
+    left: 27%;
+}
+
+#pass{
+    left: 48.3%;
+}
+
+#send{
+    position: absolute;
+    top: 16%;
+    left: 42.8%;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #1f2c3f;
+}
+
+#screeen{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 26%;
+    left: 36.5%;
+    font-size: 25px;
+    color: rgb(197, 197, 197);
+}
