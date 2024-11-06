@@ -5,6 +5,7 @@ let goods = [
       product_price: 50,
       store_name: "Moda Dünyası",
       store_address: "Bakı şəhəri, Nizami kuçəsi 5",
+      id: "q5nsC5vZri7d",
     },
     {
       product_name: "Qadın bluzası",
@@ -12,6 +13,7 @@ let goods = [
       product_price: 60,
       store_name: "Moda Dünyası",
       store_address: "Bakı şəhəri, Nizami kuçəsi 5",
+      id: "Lm7CewLM3VVn",
     },
     {
       product_name: "Kişi pantolonu",
@@ -19,13 +21,15 @@ let goods = [
       product_price: 75,
       store_name: "Moda Dünyası",
       store_address: "Bakı şəhəri, Nizami kuçəsi 5",
+      id: "mjYH1ynC1iCv",
     },
     {
       product_name: "Qadın eteyi",
       product_description: "Qırmızı rəng, mini",
       product_price: 40,
       store_name: "Moda Dünyası",
-      store_address: "Bakı şəhəri, Nizami kuçəsi 5",    
+      store_address: "Bakı şəhəri, Nizami kuçəsi 5",
+      id: "hNbht7HA8wYS",
     },
     {
       product_name: "Kişi dəsmalı",
@@ -33,6 +37,7 @@ let goods = [
       product_price: 20,
       store_name: "Moda Dünyası",
       store_address: "Bakı şəhəri, Nizami kuçəsi 5",
+      id: "Hy1F7VdMrG9E",
     },
     {
       product_name: "Qadın çantası",
@@ -40,6 +45,7 @@ let goods = [
       product_price: 90,
       store_name: "Moda Dünyası",
       store_address: "Bakı şəhəri, Nizami kuçəsi 5",
+      id: "8fPc8z8INTU3",
     },
     {
       product_name: "Kişi botları",
@@ -47,6 +53,7 @@ let goods = [
       product_price: 120,
       store_name: "Moda Dünyası",
       store_address: "Bakı şəhəri, Nizami kuçəsi 5",
+      id: "3bfuh7R0dxmm",
     },
     {
       product_name: "Qadın ayaqqabıları",
@@ -54,6 +61,7 @@ let goods = [
       product_price: 85,
       store_name: "Moda Dünyası",
       store_address: "Bakı şəhəri, Nizami kuçəsi 5",
+      id: "1rGM5lJi99zS",
     },
     {
       product_name: "Kişi papağı",
@@ -61,6 +69,7 @@ let goods = [
       product_price: 45,
       store_name: "Moda Dünyası",
       store_address: "Bakı şəhəri, Nizami kuçəsi 5",
+      id: "kK88WjR5YJoG",
     },
     {
       product_name: "Qadın şalvarı",
@@ -68,6 +77,7 @@ let goods = [
       product_price: 70,
       store_name: "Zərif Moda",
       store_address: "Bakı şəhəri, 28 May kuçəsi 12",
+      id: "ks8aNWDdgzxH",
     },
     {
       product_name: "Kişi palto",
@@ -75,6 +85,7 @@ let goods = [
       product_price: 250,
       store_name: "Zərif Moda",
       store_address: "Bakı şəhəri, 28 May kuçəsi 12",
+      id: "e9zE2mXRdoJu",
     },
     {
       product_name: "Qadın jaketi",
@@ -82,6 +93,7 @@ let goods = [
       product_price: 200,
       store_name: "Zərif Moda",
       store_address: "Bakı şəhəri, 28 May kuçəsi 12",
+      id: "Ci47uS6CW7Bg",
     },
     {
       product_name: "Kişi kəməri",
@@ -89,6 +101,7 @@ let goods = [
       product_price: 40,
       store_name: "Zərif Moda",
       store_address: "Bakı şəhəri, 28 May kuçəsi 12",
+      id: "CUftVZFImcYU",
     },
     {
       product_name: "Qadın badlonu",
@@ -96,6 +109,7 @@ let goods = [
       product_price: 180,
       store_name: "Zərif Moda",
       store_address: "Bakı şəhəri, 28 May kuçəsi 12",
+      id: "wnLxvxFPdudM",
     },
     {
       product_name: "Kişi şortu",
@@ -103,6 +117,7 @@ let goods = [
       product_price: 60,
       store_name: "Zərif Moda",
       store_address: "Bakı şəhəri, 28 May kuçəsi 12",
+      id: "253KaIWUm9Wa",
     },
     {
       product_name: "Qadın maykası",
@@ -110,6 +125,7 @@ let goods = [
       product_price: 45,
       store_name: "Zərif Moda",
       store_address: "Bakı şəhəri, 28 May kuçəsi 12",
+      id: "RRruNyZz5kjo",
     },
     {
       product_name: "Kişi saatı",
@@ -117,6 +133,7 @@ let goods = [
       product_price: 150,
       store_name: "Zərif Moda",
       store_address: "Bakı şəhəri, 28 May kuçəsi 12",
+      id: "iN5dtAp1HpGg",
     },
     {
       product_name: "Qadın bəzək",
@@ -124,6 +141,7 @@ let goods = [
       product_price: 220,
       store_name: "Əliyev Moda Mərkəzi",
       store_address: "Bakı şəhəri, Azadlıq prospekti 89",
+      id: "2j13VdhmOAIq",
     },
     {
       product_name: "Kişi atkısı",
@@ -131,6 +149,7 @@ let goods = [
       product_price: 35,
       store_name: "Əliyev Moda Mərkəzi",
       store_address: "Bakı şəhəri, Azadlıq prospekti 89",
+      id: "bVxSVi95bvAq",
     },
     {
       product_name: "Qadın bantı",
@@ -138,6 +157,7 @@ let goods = [
       product_price: 50,
       store_name: "Əliyev Moda Mərkəzi",
       store_address: "Bakı şəhəri, Azadlıq prospekti 89",
+      id: "qq0QXlEOZe61",
     },
     {
       product_name: "Kişi kostyumu",
@@ -145,6 +165,7 @@ let goods = [
       product_price: 320,
       store_name: "Əliyev Moda Mərkəzi",
       store_address: "Bakı şəhəri, Azadlıq prospekti 89",
+      id: "zsazoYjENxCN",
     },
     {
       product_name: "Qadın kombinezonu",
@@ -152,6 +173,7 @@ let goods = [
       product_price: 150,
       store_name: "Əliyev Moda Mərkəzi",
       store_address: "Bakı şəhəri, Azadlıq prospekti 89",
+      id: "ZzVMR2OLi2sX",
     },
     {
       product_name: "Kişi sviteri",
@@ -159,6 +181,7 @@ let goods = [
       product_price: 70,
       store_name: "Əliyev Moda Mərkəzi",
       store_address: "Bakı şəhəri, Azadlıq prospekti 89",
+      id: "8cyvklfAz6wE",
     },
     {
       product_name: "Qadın ziyafət geyimi",
@@ -166,6 +189,7 @@ let goods = [
       product_price: 95,
       store_name: "Əliyev Moda Mərkəzi",
       store_address: "Bakı şəhəri, Azadlıq prospekti 89",
+      id: "4izBmkUW3Gl2",
     },
     {
       product_name: "Kişi sport formaları",
@@ -173,6 +197,7 @@ let goods = [
       product_price: 55,
       store_name: "Əliyev Moda Mərkəzi",
       store_address: "Bakı şəhəri, Azadlıq prospekti 89",
+      id: "1GQGJqXc3yx5",
     },
     {
       product_name: "Qadın bikini",
@@ -180,6 +205,7 @@ let goods = [
       product_price: 45,
       store_name: "Əliyev Moda Mərkəzi",
       store_address: "Bakı şəhəri, Azadlıq prospekti 89",
+      id: "25aUNaPezm0J",
     },
     {
       product_name: "Kişi çantası",
@@ -187,6 +213,7 @@ let goods = [
       product_price: 100,
       store_name: "Əliyev Moda Mərkəzi",
       store_address: "Bakı şəhəri, Azadlıq prospekti 89",
+      id: "GDjJ9vxKFKg4",
     },
     {
       product_name: "Qadın ətri",
@@ -194,6 +221,7 @@ let goods = [
       product_price: 80,
       store_name: "Əliyev Moda Mərkəzi",
       store_address: "Bakı şəhəri, Azadlıq prospekti 89",
+      id: "r2XtEdNI8hT7",
     },
     {
       product_name: "Kişi şalı",
@@ -201,6 +229,7 @@ let goods = [
       product_price: 25,
       store_name: "Əliyev Moda Mərkəzi",
       store_address: "Bakı şəhəri, Azadlıq prospekti 89",
+      id: "OCaDfHpjVD3v",
     },
     {
       product_name: "Qadın sutyeni",
@@ -208,11 +237,50 @@ let goods = [
       product_price: 65,
       store_name: "Əliyev Moda Mərkəzi",
       store_address: "Bakı şəhəri, Azadlıq prospekti 89",
+      id: "Ttp86WQe7yL2",
     },
-  ];
- 
-function arryDiapazone(goods_fun, min, max){
-	return goods_fun.filter((element) => element.product_price > min && element.product_price < max)
-}	
+];
 
-console.log(arryDiapazone(goods,100,200))
+function getElement(ele){
+  let li = document.createElement('li')
+  li.innerHTML = `
+  <p>${ele.product_name}</p>
+  <p>${ele.product_description}</p>
+  <p>${ele.product_price}</p>
+  <p>${ele.store_name}</p>
+  <p>${ele.store_address}</p>
+  <p>${ele.id}</p>
+  `
+
+  document.getElementById('list').appendChild(li)
+}
+
+function addAllElements(mass) {
+  mass.forEach(element => {getElement(element)});
+}
+
+function serchByName(name) {
+	let listFilet = goods.filter((item) => item.store_name === name	)
+
+	let ulelem = document.getElementById('list')
+
+	ulelem.innerHTML = ''
+
+	addAllElements(listFilet)
+}
+
+function evets() {
+	document.getElementById('butModD').addEventListener('click', () => {
+		serchByName('Moda Dünyası')
+	})
+
+  document.getElementById('butModZ').addEventListener('click', () => {
+		serchByName('Zərif Moda')
+	})
+
+  document.getElementById('butModE').addEventListener('click', () => {
+		serchByName('Əliyev Moda Mərkəzi')
+	})
+}
+
+evets()
