@@ -209,39 +209,149 @@ let goods = [
       store_name: "Əliyev Moda Mərkəzi",
       store_address: "Bakı şəhəri, Azadlıq prospekti 89",
     },
-  ];
- 
-function arryDiapazone(goods_fun, min, max, stage, char=''){
+];
 
-	let arry
 
-	if(stage === true) {
-    let arry1 = []
-    for(let i=0; i < goods_fun.length; i++) {
-      if (goods_fun[i].product_name.includes(char)) {
-        arry1.push(goods_fun[i])
-      }
+
+function arryFilterPrice(arry, min, max) {
+  return arry.filter((element) => element.product_price > min && element.product_price < max)
+}
+
+
+
+function arryFilterString(arry, string, enum1) {
+
+    let arry_sorted = []
+
+    objloop: for (let i = 0; i < arry.length; i++) {
+
+        let name = ""
+
+        if (enum1 === 1) {
+
+            name = arry[i].product_name.split('')
+
+        }
+        else if (enum1 === 2) {
+            
+            name = arry[i].product_description.split('')
+
+        }
+        else if (enum1 === 3) {
+            
+            name = arry[i].store_name.split('')
+
+        }
+        else if (enum1 === 4) {
+            
+            name = arry[i].store_name.split('')
+
+        }
+
+        let stringarry = string.split('')
+
+        let first = true
+
+        let startIndex = -1
+
+        let index = -1
+
+        let k_index = 0
+
+        loop2: for (let j = 0; j < name.length; j++) {
+
+            if (!first && index - startIndex + 1 === stringarry.length) {
+
+                arry_sorted.push(arry[i])
+
+                continue objloop;
+
+            }
+
+            for (let k = k_index; k < stringarry.length; k++) {
+
+                if (name[j].toLowerCase() === stringarry[k].toLowerCase()) {
+
+                    if (name.length === 1) {
+
+                        arry_sorted.push(arry[i])
+
+                        continue objloop;
+                        
+                    }
+                    else{
+
+                        if (first) {
+
+                            first = false
+
+                            startIndex = j
+
+                            index = j
+                                
+                        }
+                        else {
+
+                            if (name.length-1 === j) {
+
+                                if (index - startIndex + 1 === stringarry.length) {
+
+                                    arry_sorted.push(arry[i])
+            
+                                    continue objloop;
+            
+                                }
+                                else {
+
+                                    continue objloop;
+
+                                }
+                            }
+
+                            if (index+1 === j) {
+
+                                index++
+
+                                continue loop2;
+                                    
+                            }
+                            else {
+
+                                continue objloop;
+
+                            }
+
+                        }
+
+                    } 
+
+                    k_index++
+
+                }
+
+            }
+
+        }
+
     }
-    arry = arry1
-    console.log(arry1)
-	}
-	else {
-		arry = goods_fun.filter((element) => element.product_price > min && element.product_price < max)
-	}
 
-  arry.forEach(element => {
-		let li = document.createElement('li')
-		li.innerHTML = `
-		<p>${element.product_name}</p>
-		<p>${element.product_description}</p>
-		<p>${element.product_price}</p>
-		<p>${element.store_name}</p>
-		<p>${element.store_address}</p>
-		<p>${element.id}</p>
-		`
+    return arry_sorted
+}
 
-		document.getElementById('list').appendChild(li)
-	});
-}	
+function displayElement(arry) {
+    arry.forEach(element => {
+        let li = document.createElement('li')
+        li.innerHTML = `
+        <p>${element.product_name}</p>
+        <p>${element.product_description}</p>
+        <p>${element.product_price}</p>
+        <p>${element.store_name}</p>
+        <p>${element.store_address}</p>
+        <p>${element.id}</p>
+        `
 
-arryDiapazone(goods,100,250,true,'K')
+        document.getElementById('list').appendChild(li)
+    });
+}
+
+displayElement(arryFilterString(goods,"kişi",1))
