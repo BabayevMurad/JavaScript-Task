@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(16, 16, 16);
+}
+
+label{
+    position: absolute;
+    color: rgb(167, 167, 167);
+}
+
+input{
+    position: absolute;
+    color: rgb(220, 220, 220);
+    background-color: rgb(87, 87, 87);
+    width: 10%;
+    height: 2.1%;
+}
+
+#login{
+    top: 8%;
+    left: 25%;
+}
+
+#loginlbl{
+    top: 5%;
+    left: 25.2%
+}
+
+
+#password{
+    top: 8%;
+    left: 37%;
+}
+
+#passwordlbl{
+    top: 5%;
+    left: 37.2%
+}
+
+#email{
+    top: 8%;
+    left: 49%;
+}
+
+#emaillbl{
+    top: 5%;
+    left: 49.2%
+}
+
+#button{
+    position: absolute;
+    top: 15%;
+    left: 42%;
+    color: rgb(167, 167, 167);
+    background-color: rgb(87, 87, 87);
+}
+
+.wrong{
+    display: none;
+    color: red;
+    position: absolute;    
+}
+
+#loginError{
+    top: 11%;
+    left: 25.5%;
+}
+
+#passwordError{
+    top: 11%;
+    left: 37.5%;
+}
+
+#emailError{
+    top: 11%;
+    left: 49.5%;
+}
