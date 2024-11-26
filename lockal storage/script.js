@@ -225,9 +225,7 @@ function displayElement(arry) {
         <button class="add">Add</button>
         `
 
-        document.getElementById('list').appendChild(li)
-
-        document.querySelector('.add').addEventListener('click', () => {
+        li.querySelector('.add').addEventListener('click', () => {
             // localStorage.setItem('goods',JSON.stringify(JSON.parse(localStorage.getItem('goods')).push(element)))
             let json = localStorage.getItem('goods')
             let arry = JSON.parse(json)
@@ -235,6 +233,9 @@ function displayElement(arry) {
             let json2 = JSON.stringify(arry)
             localStorage.setItem('goods', json2)
         })
+
+        document.getElementById('list').appendChild(li)
+
     });
 
 }
