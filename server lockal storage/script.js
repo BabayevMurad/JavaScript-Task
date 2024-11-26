@@ -222,25 +222,9 @@ function displayElement(arry) {
         <p>${element.product_price}</p>
         <p>${element.store_name}</p>
         <p>${element.store_address}</p>
-        <button index="add">Add</button>
+        <button class="add">Add</button>
         `
-<<<<<<< HEAD
         li.querySelector('.add').addEventListener('click', () => {
-              let json = localStorage.getItem('goods')
-              let arry = JSON.parse(json)
-              arry.push(element)
-              let json2 = JSON.stringify(arry)
-              localStorage.setItem('goods', json2)
-          })
-        document.getElementById('list').appendChild(li)
-      });
-    }
-    
-    displayElement(goods)
-=======
-
-        li.querySelector('.add').addEventListener('click', () => {
-            // localStorage.setItem('goods',JSON.stringify(JSON.parse(localStorage.getItem('goods')).push(element)))
             let json = localStorage.getItem('goods')
             let arry = JSON.parse(json)
             arry.push(element)
@@ -249,10 +233,13 @@ function displayElement(arry) {
         })
 
         document.getElementById('list').appendChild(li)
-
     });
-
 }
 
-displayElement(goods)
->>>>>>> 9893841ef13fc55d39cf30791e8c01e0e30dad6a
+fetch("http://localhost:5000/goods")
+.then((responce) => {
+  return responce.json()
+})
+.then((goods) => {
+  displayElement(goods)
+})
